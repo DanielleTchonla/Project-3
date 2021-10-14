@@ -1,4 +1,4 @@
-#eksctl create cluster (to run on cli)
+#eksctl create cluster (to run on cli)s
 
 INSTALL KUBECTL
 eksctl create cluster \
