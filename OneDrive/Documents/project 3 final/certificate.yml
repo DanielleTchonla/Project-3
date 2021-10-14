@@ -14,4 +14,4 @@ Outputs:
     Value:
       !Ref MyCertificate
     Export:
-      Name: !Sub "${AWS::StackName}-MyCertificateID"
+      Name: !Sub "${AWS::StackName}-MyCertificateID"s
