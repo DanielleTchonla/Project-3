@@ -1,0 +1,15 @@
+pipeline {
+    agent any
+    stages {
+        stage('static') {
+            steps {
+                build 'static-web-template'
+            }
+        }
+        stage('s3lifecycle') {
+            steps {
+                build 'S3-template-lifecycle'
+            }
+        }
+    }
+}
